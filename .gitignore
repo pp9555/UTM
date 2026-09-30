@@ -1,0 +1,74 @@
+# =========================
+# Next.js & Node.js (Frontend & WebSockets)
+# =========================
+# dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# Next.js build output
+/.next/
+/out/
+build/
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Python & OpenCV (Computer Vision / Edge)
+# =========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env/
+
+# OpenCV / Video testing artifacts (Optional: uncomment if you don't want to upload test videos/images)
+# *.mp4
+# *.avi
+# test_videos/
+
+# =========================
+# Arduino / Embedded (Hardware)
+# =========================
+# If using PlatformIO or Arduino CLI
+.pio/
+.arduino15/
+build/
+*.elf
+*.bin
+*.hex
+
+# =========================
+# Environment Variables & Secrets 
+# =========================
+# NEVER commit your MongoDB URI, API keys, or secret tokens
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# OS & Editor Files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
